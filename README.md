@@ -26,7 +26,7 @@ The goal of this project is to build a classification model that predicts whethe
 
 ## 📊 Dataset
 
-The project uses the **https://www.kaggle.com/datasets/blastchar/telco-customer-churn?utm_source=gemini**.
+The project uses the **Telco Customer Churn Dataset**.
 
 ### Dataset Information
 
@@ -304,13 +304,11 @@ The application includes customer information related to:
 
 ### Application Preview
 
-<img width="1891" height="734" alt="Image1" src="https://github.com/user-attachments/assets/581fabde-3567-474f-ada4-fb846441827f" />
+![Streamlit Application](screenshots/app_home.png)
 
+![Churn Prediction](screenshots/churn_prediction.png)
 
-<img width="1920" height="664" alt="Image2" src="https://github.com/user-attachments/assets/178ad04a-ceac-4e08-8152-64bb35fbf7f4" />
-
-
-<img width="1920" height="397" alt="Image3" src="https://github.com/user-attachments/assets/56ecb24e-e010-41af-baec-55bfac48f5b2" />
+![Stay Prediction](screenshots/stay_prediction.png)
 
 ---
 
@@ -325,6 +323,8 @@ The application includes customer information related to:
 - Joblib
 - Streamlit
 - Jupyter Notebook
+
+---
 
 ## 📁 Project Structure
 
@@ -342,3 +342,30 @@ Customer-Churn-Prediction/
     ├── app_home.png
     ├── churn_prediction.png
     └── stay_prediction.png
+
+
+## 💡 Key Insights
+
+The project demonstrates a complete machine learning workflow from raw data to a deployed prediction application.
+
+Important lessons from the project include:
+
+- Customer tenure and contract type are important factors in churn prediction.
+- Proper preprocessing is essential when working with mixed numerical and categorical data.
+- Recall is an important metric for churn prediction because missing potential churners can reduce retention opportunities.
+- Hyperparameter tuning can improve model performance.
+- Building a Pipeline helps maintain consistent preprocessing between training and prediction.
+
+---
+
+## 🔮 Future Improvements
+
+Possible future improvements include:
+
+- Trying additional classification algorithms.
+- Advanced hyperparameter optimization.
+- Feature importance and model explainability using SHAP.
+- Threshold optimization based on business requirements.
+- Adding customer risk categories.
+- Deploying the application online.
+- Adding a dashboard for monitoring churn predictions.
