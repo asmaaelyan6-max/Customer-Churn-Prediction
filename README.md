@@ -326,35 +326,6 @@ The application includes customer information related to:
 - Streamlit
 - Jupyter Notebook
 
----
-
-## Possible future improvements include:
-
-```text
-- Trying additional classification algorithms.
-- Advanced hyperparameter optimization.
-- Feature importance and model explainability using SHAP.
-- Threshold optimization based on business requirements.
-- Adding customer risk categories.
-- Deploying the application online.
-- Adding a dashboard for monitoring churn predictions.
-
----
-
-## 💡Key Insights
-
-```text
-The project demonstrates a complete machine learning workflow from raw data to a deployed prediction application.
-Important lessons from the project include:
-- Customer tenure and contract type are important factors in churn prediction.
-- Proper preprocessing is essential when working with mixed numerical and categorical data.
-- Recall is an important metric for churn prediction because missing potential churners can reduce retention opportunities.
-- Hyperparameter tuning can improve model performance.
-- Building a Pipeline helps maintain consistent preprocessing between training and prediction.
-🔮 Future Improvements
-
----
-
 ## 📁 Project Structure
 
 ```text
@@ -367,4 +338,7 @@ Customer-Churn-Prediction/
 ├── README.md
 ├── WA_Fn-UseC_-Telco-Customer-Churn.csv
 │
-└── screenshots.png
+└── screenshots/
+    ├── app_home.png
+    ├── churn_prediction.png
+    └── stay_prediction.png
