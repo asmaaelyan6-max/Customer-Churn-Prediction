@@ -340,7 +340,4 @@ Customer-Churn-Prediction/
 ├── README.md
 ├── WA_Fn-UseC_-Telco-Customer-Churn.csv
 │
-└── screenshots/
-    ├── app_home.png
-    ├── churn_prediction.png
-    └── stay_prediction.png
+└── screenshots
